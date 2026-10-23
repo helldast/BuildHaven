@@ -332,7 +332,7 @@ svg { width: 1.15em; height: 1.15em; fill: none; stroke: currentColor; stroke-wi
 .footer-nav { display: grid; gap: 8px; justify-items: start; }
 .footer-nav a { color: var(--on-ink-2); text-decoration: none; }
 .footer-nav a:hover { color: var(--sand); }
-.copyright { font-size: 0.875rem; color: var(--on-ink-2); }
+.footer-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 32px; font-size: 0.875rem; color: var(--on-ink-2); }
 
 /* Load reveal: hero copy rises once */
 .hero-copy > * { animation: rise 1s var(--ease) both; }
