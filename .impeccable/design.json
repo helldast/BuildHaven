@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T10:30:43.948Z",
+  "title": "Design System: BuildHaven",
+  "extensions": {
+    "colorMeta": {
+      "petrol-ink": {
+        "role": "primary",
+        "displayName": "Petrol Ink",
+        "canonical": "oklch(26.7% 0.036 216)",
+        "tonalRamp": [
+          "#000e15",
+          "#0c282f",
+          "#29454c",
+          "#46636b",
+          "#65838b",
+          "#86a4ad",
+          "#abcad3",
+          "#e2f2f6"
+        ]
+      },
+      "petrol-ink-raised": {
+        "role": "primary",
+        "displayName": "Raised Petrol",
+        "canonical": "oklch(32.6% 0.044 216)",
+        "tonalRamp": [
+          "#000f17",
+          "#032932",
+          "#22464f",
+          "#40646e",
+          "#5f848e",
+          "#80a6b0",
+          "#a5ccd7",
+          "#dff3f8"
+        ]
+      },
+      "ink-hairline": {
+        "role": "neutral",
+        "displayName": "Ink Hairline",
+        "canonical": "rgba(196, 180, 158, 0.18)"
+      },
+      "cool-paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "oklch(96.3% 0.004 121)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242422",
+          "#3f403e",
+          "#5d5e5b",
+          "#7d7e7b",
+          "#9e9f9c",
+          "#c3c4c2",
+          "#eeefed"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "sand": {
+        "role": "secondary",
+        "displayName": "Sand",
+        "canonical": "oklch(77.8% 0.035 75)",
+        "tonalRamp": [
+          "#130900",
+          "#2e220f",
+          "#4b3d2a",
+          "#695b47",
+          "#8a7b66",
+          "#ab9c86",
+          "#d2c2ab",
+          "#f6ede2"
+        ]
+      },
+      "sand-strong": {
+        "role": "secondary",
+        "displayName": "Strong Sand",
+        "canonical": "oklch(70.3% 0.046 76)",
+        "tonalRamp": [
+          "#160700",
+          "#312107",
+          "#4e3c23",
+          "#6d5a40",
+          "#8d7a5f",
+          "#af9b7f",
+          "#d5c1a4",
+          "#f8edde"
+        ]
+      },
+      "bronze": {
+        "role": "secondary",
+        "displayName": "Bronze",
+        "canonical": "oklch(50.8% 0.053 68)",
+        "tonalRamp": [
+          "#190500",
+          "#351e03",
+          "#523a1f",
+          "#72583c",
+          "#93785b",
+          "#b5997b",
+          "#dcbea0",
+          "#fbecdc"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Ink Text",
+        "canonical": "oklch(25.7% 0.022 216)",
+        "tonalRamp": [
+          "#020d11",
+          "#18272b",
+          "#334347",
+          "#506165",
+          "#6f8186",
+          "#90a2a7",
+          "#b5c8cd",
+          "#e7f0f3"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Muted Text",
+        "canonical": "oklch(46.3% 0.021 214)",
+        "tonalRamp": [
+          "#020d11",
+          "#18272a",
+          "#334347",
+          "#516165",
+          "#708185",
+          "#91a2a6",
+          "#b6c8cc",
+          "#e7f0f3"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "On-Ink",
+        "canonical": "oklch(95.5% 0.004 157)",
+        "tonalRamp": [
+          "#0a0c0a",
+          "#222523",
+          "#3e403f",
+          "#5c5e5d",
+          "#7b7e7c",
+          "#9c9f9d",
+          "#c2c5c3",
+          "#edefee"
+        ]
+      },
+      "on-ink-muted": {
+        "role": "neutral",
+        "displayName": "On-Ink Muted",
+        "canonical": "oklch(81.7% 0.014 196)",
+        "tonalRamp": [
+          "#050d0d",
+          "#1c2626",
+          "#374242",
+          "#556060",
+          "#748080",
+          "#95a1a1",
+          "#bac7c7",
+          "#e9f0f0"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(87.9% 0.017 79)",
+        "tonalRamp": [
+          "#0f0a04",
+          "#28231b",
+          "#453f36",
+          "#635d53",
+          "#837c72",
+          "#a49d93",
+          "#cac3b8",
+          "#f1eee8"
+        ]
+      },
+      "status-available": {
+        "role": "tertiary",
+        "displayName": "Available Green",
+        "canonical": "oklch(47.6% 0.077 161)",
+        "tonalRamp": [
+          "#001302",
+          "#002f18",
+          "#084c33",
+          "#2f6b50",
+          "#508c6f",
+          "#71ae90",
+          "#97d4b5",
+          "#d9f7e7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; the second line is a sand highlighted phrase set as a block."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section H2s; the closing footer line uses a larger clamp(2rem, 4vw, 3.25rem) variant."
+      },
+      "stat": {
+        "displayName": "Stat",
+        "purpose": "Facts strip values, tabular figures."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Contact names; the lead contact uses clamp(2rem, 3vw, 2.5rem)."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Section intros and location/about copy at 46-52ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; 1rem below 560px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase functional labels: table header, nav (0.9375rem/500), frame caption (0.8125rem, 0.08em). Never a section eyebrow."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "All button labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "header-lift",
+        "value": "0 8px 24px -16px rgba(0, 0, 0, 0.6)",
+        "purpose": "Under the fixed header once scrolled past 40px or with the mobile menu open."
+      },
+      {
+        "name": "plan-sheet",
+        "value": "0 18px 40px -28px rgba(14, 42, 49, 0.45)",
+        "purpose": "Petrol-tinted contact shadow under the white floor-plan sheet."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "House easing for every transition and animation."
+      },
+      {
+        "name": "state",
+        "value": "0.25s-0.3s",
+        "purpose": "Hover color, border and 1px press transitions."
+      },
+      {
+        "name": "rise",
+        "value": "1s, 16px, staggered 0.08s",
+        "purpose": "One-time load reveal of the hero copy."
+      },
+      {
+        "name": "frame-in",
+        "value": "1.4s, 0.15s delay",
+        "purpose": "The hero frame wipes open along its slant on load."
+      },
+      {
+        "name": "swap-in",
+        "value": "0.5s, 6px, from 0.2 opacity",
+        "purpose": "Unit detail children replay on each selection."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Strips all animations and transitions; smooth scroll off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tight",
+        "value": "1100px"
+      },
+      {
+        "name": "stack",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "560px"
+      }
+    ],
+    "slant": {
+      "value": "9%",
+      "narrow": "7% below 900px",
+      "purpose": "Roof-angle offset for image and map frame clip-paths."
+    },
+    "texture": {
+      "name": "plan-linework",
+      "value": "assets/plans/pudorys-2np.png, invert(1), mix-blend-mode screen, opacity 0.07 hero / 0.04 footer, left-to-right mask",
+      "purpose": "The only texture; petrol grounds only."
+    },
+    "hooks": [
+      {
+        "name": "BYTY",
+        "where": "script.js",
+        "purpose": "Unit data { cislo, plocha, stav: volny|rezervace|prodano }; renders rows, the detail panel and #byt-N anchors."
+      },
+      {
+        "name": "VIZUALIZACE",
+        "where": "script.js",
+        "purpose": "Visualisations { src, popis }; non-empty reveals the gallery, [0] fills the hero frame, [1] the about frame."
+      },
+      {
+        "name": "is-photo",
+        "where": ".hero-frame, .about-frame",
+        "purpose": "Cover-crop state for frames holding a photo; removes padding, keeps the slant, puts the hero caption on a petrol chip."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Sand action on any ground: hero, about band, footer closing.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Vybrat byt</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:0.6em;padding:0.95em 1.6em;font:600 1rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);letter-spacing:0.01em;text-decoration:none;border-radius:0;cursor:pointer;transition:background-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),border-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),transform 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));background:var(--sand, #c4b49e);color:var(--ink, #0e2a31);border:1px solid var(--sand, #c4b49e);} .ds-btn:hover{background:var(--white, #ffffff);border-color:var(--white, #ffffff);} .ds-btn:active{transform:translateY(1px);} .ds-btn:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Petrol call action in the unit detail panel.",
+      "html": "<a class=\"ds-btn-dark\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg> Zavolat 721&nbsp;002&nbsp;213</a>",
+      "css": ".ds-btn-dark{display:inline-flex;align-items:center;gap:0.6em;padding:0.95em 1.6em;font:600 1rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);letter-spacing:0.01em;text-decoration:none;border-radius:0;cursor:pointer;transition:background-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),border-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),transform 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));background:var(--ink, #0e2a31);color:var(--on-ink, #eef1ef);border:1px solid var(--ink, #0e2a31);} .ds-btn-dark:hover{background:var(--ink-2, #163a43);border-color:var(--ink-2, #163a43);} .ds-btn-dark:active{transform:translateY(1px);} .ds-btn-dark:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Quiet companion action on light grounds (email beside call).",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round\"><path d=\"M3 6h18v12H3z\"/><path d=\"m3 7 9 6 9-6\"/></svg> Napsat e-mail</a>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:0.6em;padding:0.95em 1.6em;font:600 1rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);letter-spacing:0.01em;text-decoration:none;border-radius:0;cursor:pointer;transition:background-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),border-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),transform 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));background:transparent;color:var(--text, #17262a);border:1px solid var(--rule, #ddd6cb);} .ds-btn-ghost:hover{background:var(--white, #ffffff);border-color:var(--sand-strong, #b09c80);} .ds-btn-ghost:active{transform:translateY(1px);} .ds-btn-ghost:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Secondary action: open map, download plan PDF.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">Stáhnout půdorys 1.NP (PDF)</a>",
+      "css": ".ds-text-link{display:inline-block;font:600 1.0625rem/1.6 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);color:var(--ink, #0e2a31);text-decoration:underline;text-decoration-color:var(--sand-strong, #b09c80);text-decoration-thickness:2px;text-underline-offset:6px;transition:text-decoration-color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));} .ds-text-link:hover{text-decoration-color:var(--ink, #0e2a31);} .ds-text-link:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-cta",
+      "description": "Fixed petrol bar: logo mark plus live wordmark, uppercase links, sand Kontakt block. The mark here is a placeholder outline; the real mark is assets/logo-mark.png.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-mark\" aria-hidden=\"true\"></span><span>Build<b>Haven</b></span></a><nav><a href=\"#\">Lokalita</a><a href=\"#\">Byty</a><a href=\"#\">Půdorysy</a><a href=\"#\">O nás</a><a href=\"#\" class=\"ds-nav-cta\">Kontakt</a></nav></header>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;height:76px;padding:0 32px;background:var(--ink, #0e2a31);color:var(--on-ink, #eef1ef);font-family:var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);} .ds-brand{display:inline-flex;align-items:center;gap:12px;color:inherit;text-decoration:none;font-size:1.375rem;font-weight:500;letter-spacing:0.01em;} .ds-brand b{font-weight:700;} .ds-mark{width:30px;height:22px;background:var(--sand, #c4b49e);clip-path:polygon(0 45%,50% 0,100% 45%,100% 100%,0 100%);} .ds-nav nav{display:flex;align-items:center;gap:32px;} .ds-nav nav a{font-size:0.9375rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;color:var(--on-ink-2, #b9c6c6);transition:color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));} .ds-nav nav a:hover{color:var(--white, #ffffff);} .ds-nav nav a:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;} .ds-nav .ds-nav-cta{color:var(--ink, #0e2a31);background:var(--sand, #c4b49e);padding:0.7em 1.2em;} .ds-nav .ds-nav-cta:hover{color:var(--ink, #0e2a31);background:var(--white, #ffffff);}"
+    },
+    {
+      "name": "Unit Selector",
+      "kind": "custom",
+      "refersTo": "unit-row-selected",
+      "description": "Signature: row buttons (name, area, status) with paper hover and petrol selection; rendered from the BYTY array.",
+      "html": "<div class=\"ds-units\"><div class=\"ds-row ds-head\"><span>Byt</span><span>Plocha</span><span>Stav</span></div><button class=\"ds-row\" aria-pressed=\"true\"><span class=\"ds-name\">Byt 1</span><span>107,88 m²</span><span class=\"ds-status\">Volný</span></button><button class=\"ds-row\" aria-pressed=\"false\"><span class=\"ds-name\">Byt 2</span><span>117,77 m²</span><span class=\"ds-status ds-res\">Rezervace</span></button><button class=\"ds-row\" aria-pressed=\"false\"><span class=\"ds-name\">Byt 3</span><span>105,86 m²</span><span class=\"ds-status ds-sold\">Prodáno</span></button></div>",
+      "css": ".ds-units{font-family:var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);color:var(--text, #17262a);background:var(--white, #ffffff);padding:16px;} .ds-row{display:grid;grid-template-columns:1fr 1.2fr 0.8fr;align-items:center;gap:12px;width:100%;padding:20px;text-align:left;font:inherit;font-size:1.125rem;font-weight:500;color:inherit;background:none;border:0;border-bottom:1px solid var(--rule, #ddd6cb);cursor:pointer;font-variant-numeric:tabular-nums;transition:background-color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));} .ds-row:hover{background:var(--paper, #f2f3f0);} .ds-row:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;} .ds-row[aria-pressed=\"true\"]{background:var(--ink, #0e2a31);color:var(--on-ink, #eef1ef);} .ds-head{cursor:default;padding-top:0;padding-bottom:14px;border-bottom:1px solid var(--text, #17262a);font-size:0.875rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-2, #4c5c60);} .ds-head:hover{background:none;} .ds-name{font-size:1.25rem;font-weight:600;} .ds-status{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:0.9375rem;} .ds-status::before{content:\"\";width:8px;height:8px;border-radius:50%;background:var(--ok, #2e6a4f);} .ds-res::before{background:var(--sand-strong, #b09c80);} .ds-sold::before{background:#9a9a9a;} .ds-row[aria-pressed=\"true\"] .ds-status::before{background:#7fd1a6;}"
+    },
+    {
+      "name": "Unit Detail Panel",
+      "kind": "card",
+      "refersTo": "unit-detail",
+      "description": "Paper panel with a sand top rule, spec rows and the call action.",
+      "html": "<aside class=\"ds-detail\"><h3>Byt 1</h3><dl><div><dt>Plocha</dt><dd>107,88 m²</dd></div><div><dt>Cena</dt><dd>90&nbsp;000&nbsp;Kč/m²</dd></div><div><dt>K nastěhování</dt><dd>od února 2027</dd></div></dl><a class=\"ds-d-btn\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" style=\"width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg> Zavolat</a><p>Plochy vycházejí ze studie bytového domu.</p></aside>",
+      "css": ".ds-detail{font-family:var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);background:var(--paper, #f2f3f0);color:var(--text, #17262a);padding:clamp(28px,3vw,40px);border-top:3px solid var(--sand, #c4b49e);max-width:380px;} .ds-detail h3{margin:0;font-size:clamp(2.25rem,3.4vw,3rem);font-weight:600;line-height:1.08;letter-spacing:-0.02em;} .ds-detail dl{margin:24px 0 0;} .ds-detail dl div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule, #ddd6cb);} .ds-detail dt{color:var(--text-2, #4c5c60);} .ds-detail dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums;} .ds-d-btn{display:inline-flex;align-items:center;gap:0.6em;padding:0.95em 1.6em;font:600 1rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);letter-spacing:0.01em;text-decoration:none;border-radius:0;cursor:pointer;transition:background-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),border-color 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),transform 0.3s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));justify-content:center;width:100%;margin-top:28px;background:var(--ink, #0e2a31);color:var(--on-ink, #eef1ef);border:1px solid var(--ink, #0e2a31);} .ds-d-btn:hover{background:var(--ink-2, #163a43);border-color:var(--ink-2, #163a43);} .ds-d-btn:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;} .ds-detail p{margin:20px 0 0;font-size:0.875rem;color:var(--text-2, #4c5c60);}"
+    },
+    {
+      "name": "Floor-Plan Tabs",
+      "kind": "custom",
+      "refersTo": "plan-tabs",
+      "description": "Text tablist on a rule baseline; the selected tab gets a 3px sand-strong underline.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">1. nadzemní podlaží</button><button role=\"tab\" aria-selected=\"false\">2. nadzemní podlaží</button></div>",
+      "css": ".ds-tabs{display:flex;border-bottom:1px solid var(--rule, #ddd6cb);background:var(--paper, #f2f3f0);} .ds-tabs button{font:600 1rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);color:var(--text-2, #4c5c60);background:none;border:0;padding:16px 4px;margin-right:32px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px;transition:color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),border-color 0.25s var(--ease, cubic-bezier(0.16, 1, 0.3, 1));} .ds-tabs button:hover{color:var(--text, #17262a);} .ds-tabs button:focus-visible{outline:2px solid var(--sand-strong, #b09c80);outline-offset:3px;} .ds-tabs button[aria-selected=\"true\"]{color:var(--ink, #0e2a31);border-bottom-color:var(--sand-strong, #b09c80);}"
+    },
+    {
+      "name": "Slanted Frame",
+      "kind": "custom",
+      "refersTo": "hero-frame",
+      "description": "White roof-angle parallelogram holding a plan, or with is-photo a cover-cropped visualisation. The grid fill stands in for the plan image.",
+      "html": "<div class=\"ds-frame-wrap\"><figure class=\"ds-frame\"><div class=\"ds-plan\" aria-hidden=\"true\"></div><figcaption>Půdorys 1.NP, studie</figcaption></figure></div>",
+      "css": ".ds-frame-wrap{background:var(--ink, #0e2a31);padding:32px;} .ds-frame{position:relative;margin:0;background:var(--white, #ffffff);clip-path:polygon(9% 0,100% 0,91% 100%,0 100%);aspect-ratio:4/3.3;display:grid;place-items:center;padding:6% 12%;} .ds-plan{width:100%;height:100%;background-image:linear-gradient(var(--text-2, #4c5c60) 1px,transparent 1px),linear-gradient(90deg,var(--text-2, #4c5c60) 1px,transparent 1px);background-size:28px 28px;opacity:0.35;} .ds-frame figcaption{position:absolute;right:13%;bottom:5%;font:600 0.8125rem/1 var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);letter-spacing:0.08em;text-transform:uppercase;color:var(--text-2, #4c5c60);}"
+    },
+    {
+      "name": "Facts Strip",
+      "kind": "custom",
+      "refersTo": "stat",
+      "description": "Four tabular facts on petrol, divided by ink hairlines, at the foot of the hero.",
+      "html": "<dl class=\"ds-facts\"><div><dt>Bytů v nabídce</dt><dd>8</dd></div><div><dt>Velikost bytů</dt><dd>79,58–123,73&nbsp;m²</dd></div><div><dt>Cena</dt><dd>90&nbsp;000&nbsp;Kč/m²</dd></div><div><dt>K nastěhování</dt><dd>od února 2027</dd></div></dl>",
+      "css": ".ds-facts{margin:0;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink-line, rgba(196, 180, 158, 0.18));background:var(--ink, #0e2a31);color:var(--on-ink, #eef1ef);font-family:var(--font, \"Urbanist\", \"Segoe UI\", system-ui, sans-serif);padding:0 24px;} .ds-facts>div{padding:28px 24px 36px 0;} .ds-facts>div+div{padding-left:24px;border-left:1px solid var(--ink-line, rgba(196, 180, 158, 0.18));} .ds-facts dt{font-size:0.9375rem;color:var(--on-ink-2, #b9c6c6);} .ds-facts dd{margin:6px 0 0;font-size:clamp(1.5rem,2.4vw,2.125rem);font-weight:600;letter-spacing:-0.01em;font-variant-numeric:tabular-nums;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Petrol Ledger",
+    "overview": "BuildHaven is the category-standard Czech developer site, executed carefully: deep petrol grounds that hold the opening and the close, cool paper and white for the reading sections in between, warm sand as the one accent. The client chose this look on purpose, after the manner of findanreg.cz. The system's job is to look calm, premium and smooth, and to put real evidence first (the floor plans, the unit areas, the people's phone numbers).\n\nThe page alternates its grounds in a fixed rhythm: petrol hero, paper location, white units, paper plans, a petrol band inset on paper for the company, white contact, petrol footer. Every corner is square. The one recurring shape is the slanted parallelogram frame, which takes its angle from the roof line of the logo mark. On dark grounds, faint inverted floor-plan linework serves as texture, so the architecture is the decoration. No stock imagery or invented ornament is used.\n\nDensity is moderate. Facts are stated once in tabular figures and given room to breathe. Motion is a single soft reveal on load (the hero copy rises and the hero frame wipes open along its slant) plus the unit-detail swap. Reduced-motion users get none of it.",
+    "keyCharacteristics": [
+      "Petrol ink for the hero, the company band, the contact lead card and the footer; cool paper and white for reading.",
+      "Sand as the single accent: primary buttons, highlighted phrases on dark, the selected tab underline, the detail panel's top rule.",
+      "Urbanist throughout, 600 for headings, with tight negative tracking.",
+      "Square corners everywhere except the round status dots.",
+      "Slanted parallelogram frames for images and the map.",
+      "Real floor-plan linework as the only texture."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Sand is the only accent. It goes on actions and on one highlighted phrase per heading. Never introduce a second hue. On light grounds, sand moves to sand-strong (for lines and rings) or bronze (for text).",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Is the Mark Rule",
+        "body": "The gold logo mark is the only gold on the page. Sand stays muted and never becomes metallic or saturated gold.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Facts Rule",
+        "body": "Every number a buyer compares (areas, the price rate, phone numbers, fact values, spec values) is set in `font-variant-numeric: tabular-nums` with Czech formatting (decimal comma, non-breaking spaces).",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Headings stand alone. No small uppercase kicker sits above an H1 or H2.",
+        "section": "typography"
+      },
+      {
+        "name": "The Alternating Ground Rule",
+        "body": "Light reading sections alternate paper and white, and petrol bookends the page. The inset petrol band of the about section counts as a break, so the plans section (paper) can sit directly above it. When the white gallery is visible, it sits between them. A new light section takes whichever ground its neighbors leave.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Ground Rule",
+        "body": "Cards, buttons and frames carry no shadow at rest or on hover. Elevation is for things that physically float: the fixed header and a laid-down sheet.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Roof Angle Rule",
+        "body": "Slants come only from `--slant` and only on image or map frames, echoing the roof of the logo mark. Text containers, buttons and cards stay rectangular.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use petrol for the hero, footer and any band that needs weight, and alternate paper and white for everything in between.",
+      "Do keep sand to actions and one highlighted phrase per heading, and switch to bronze for highlighted text on light grounds.",
+      "Do set every comparable number in tabular figures with Czech formatting.",
+      "Do frame images and maps with the `--slant` parallelogram, and swap content through the `is-photo` state.",
+      "Do use the real floor-plan linework (inverted, screen-blended, 4–7% opacity, masked) as the only texture on petrol grounds.",
+      "Do keep corners square and lines hairline, with 3px reserved for selected or active emphasis.",
+      "Do respect `prefers-reduced-motion`, which already strips every animation and transition."
+    ],
+    "donts": [
+      "Don't add eyebrow or kicker labels above headings.",
+      "Don't build rounded icon-card rows or round any container, button or frame. Status dots are the only round shapes.",
+      "Don't use stock photography or stand-in images posed as the building. Empty visualisation slots stay hidden until real images are listed.",
+      "Don't introduce a second accent hue or a saturated gold. The logo mark is the only gold.",
+      "Don't put shadows on cards, buttons or frames, and don't use hard offset shadows.",
+      "Don't render the company name as an image. The mark is an image and \"BuildHaven\" is live text."
+    ]
+  }
+}

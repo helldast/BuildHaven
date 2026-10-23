@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T10:16:19.930Z",
+        "reason": "agent triage: gutters come from .wrap padding (clamp 16-48px) and .contact-main has clamp(28px,4vw,48px) padding; verified in 1440 and 390 captures, no text touches a boundary"
+      },
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T10:16:20.052Z",
+        "reason": "agent triage: deliberate faint floor-plan linework texture (screen blend, 7% opacity) on petrol hero/footer, visible in desktop capture"
+      }
+    ]
+  }
+}
